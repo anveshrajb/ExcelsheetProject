@@ -124,6 +124,7 @@ public class MainActivity extends AppCompatActivity implements WebServiceCallBac
                     details_adapter.notifyDataSetChanged();
                 } catch (Exception e) {
                     Log.e("JSONEXCEPTION:", e.toString());
+                    Log.e("JSONDATA_ll_ll", e.toString());
                 }
                 break;
         }
