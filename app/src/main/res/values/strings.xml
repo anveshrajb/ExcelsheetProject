@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExcelsheetProject</string>
+    <string name="base_url">https://spreadsheets.google.com/feeds/list/</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shilpakarita.indobytes.com.excelsheetproject.MainActivity">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_fresh_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_task_sheet"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:nestedScrollingEnabled="false" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    android:text="© Flexdroid.com"
+                    android:textColor="#c6c6c6"
+                    android:textSize="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    android:text="© Flexdroid.com"
+                    android:textColor="#c6c6c6"
+                    android:textSize="10dp" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+<!--    <com.jackandphantom.circularprogressbar.CircleProgressbar
+        android:id="@+id/circle_pbar"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:cpb_progress="50"
+        app:cpb_roundedCorner="true"
+        app:cpb_foregroundProgressWidth="15"
+        app:cpb_foregroundProgressColor="#1864c2"
+        app:cpb_touchEnabled="true"
+        android:layout_centerInParent="true"/>-->
+</RelativeLayout>
