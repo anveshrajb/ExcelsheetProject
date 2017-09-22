@@ -36,14 +36,7 @@
                     android:text="© Flexdroid.com"
                     android:textColor="#c6c6c6"
                     android:textSize="10dp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="15dp"
-                    android:gravity="center"
-                    android:text="© Flexdroid.com"
-                    android:textColor="#c6c6c6"
-                    android:textSize="10dp" />
+
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
     </android.support.v4.widget.SwipeRefreshLayout>

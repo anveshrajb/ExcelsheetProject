@@ -109,8 +109,6 @@ public class MainActivity extends AppCompatActivity implements WebServiceCallBac
                         String comment_string = main_data_comment.getString("$t");
 
                         Log.e("JSONDATA_ll_ll", date_string + "\n" + project_name_string + "\n" + task_string + "\n" + comment_string);
-
-
                         Taskmodel taskmodel = new Taskmodel(project_name_string, task_string, date_string, comment_string);
                         main_array_list.add(taskmodel);
                     }
@@ -154,8 +152,6 @@ public class MainActivity extends AppCompatActivity implements WebServiceCallBac
 
 
          class MyViewHolder extends RecyclerView.ViewHolder {
-         /*   TextView tv_name_id, tv_task_id, tv_date_id;
-            ImageView image_id;*/
              TextView tv_name_id, tv_task_id, tv_date_id;
              ImageView image_id;
 
